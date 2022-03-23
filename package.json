@@ -1,0 +1,39 @@
+{
+  "name": "bookscollection",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/lab": "^5.0.0-alpha.73",
+    "@mui/material": "^5.5.1",
+    "cross-fetch": "^3.1.5",
+    "formik": "^2.2.9",
+    "graphql": "^16.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "6",
+    "react-toastify": "^8.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "@vitest/ui": "^0.7.8",
+    "jsdom": "^19.0.0",
+    "vite": "^2.8.0",
+    "vitest": "^0.7.8"
+  }
+}

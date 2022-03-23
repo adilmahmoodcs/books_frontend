@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`it tests Author listing > query is fetched 1`] = `<div />`;
